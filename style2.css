@@ -1,0 +1,98 @@
+body{
+    margin: 0px;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(PC-Background-Pictures.jpg);
+    
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+#input{
+    
+    backdrop-filter: blur(10px);
+    padding: 50px;
+    border-radius: 30px;
+    background-color: hsla(0, 0%, 50%, 0.205);
+    
+    
+    
+    
+}
+#align{
+    color: rgb(41, 103, 114);
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+input{
+    border-radius: 8px;
+    background-color: rgb(161, 228, 249);
+    font-family: monospace;
+    font-size: 1rem;
+}
+textarea{
+    border-radius: 8px;
+    background-color: rgb(161, 228, 249);
+}
+#table{
+    color: rgb(13, 13, 13);
+    font-size: 1rem;
+    border-radius: 3px;
+    border-collapse: collapse;
+    border: 3px solid black ;
+    align-items: center;
+    text-align: center;
+   
+}
+#btn1{
+    position: absolute;
+    margin-top: 400px;
+    margin-right: 300px;
+    background-color: hsl(210, 74%, 56%);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+#btn2{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 200px;
+    background-color: hsl(200, 60%, 66%);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow:  0px 0px 20px 8px rgb(19, 224, 255);
+}
+#btn1:hover{
+    background-color: hsl(210, 74%, 65%);
+}
+#btn2:hover{
+    background-color: hsl(210, 74%, 65%);
+}
+#btn1:active{
+    background-color: hsl(79, 62%, 80%);
+    transform: translateX(3px) translateY(3px);
+}
+#btn:hover{
+    background-color: hsl(200, 60%, 66%);
+}
+#btn:active{
+    background-color: hsl(200, 60%, 46%);
+    transform: translateX(3px) translateY(3px);
+}
+#table th{
+    background-color: aquamarine;
+}
+#table tr:nth-child(odd){
+    background-color: aquamarine;
+}
+#table tr td{
+    font-size: 10px;
+}

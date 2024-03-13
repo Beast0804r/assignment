@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style1.css">
+        <link rel="stylesheet" href="style2.css">
+        
+    </head>
+    <body>
+        <div id="container">
+
+            <div id="input">
+                <table id="align">
+                    <tr>
+                        <td><label for="Name">Name:</label></td>
+                        <td><input type="text" id="Name"  ><br></td>
+                    </tr>
+                    <tr>
+                        <td><label for="number">DOB:</label></td>
+                        <td><input type="date" id="number" ><br></td>
+                    </tr>
+                    <tr>
+                        <td><label for="msg">Message:</label></td>
+                        <td><textarea name="" id="msg" cols="20" rows="4"></textarea><br></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" ><input type="button" value="Submit" style="margin-left: 60px;" id="btn" onclick="fun1"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"> <table border="2px solid black" id="table">
+                            <tr>
+                                <th style="width: 100px;">Name</th>
+                                <th style="width: 70px;">Year</th>
+                                <th style="width: 250px">Message</th>
+                            </tr>
+                
+                        </table></td>
+                    </tr>
+                </table>
+
+            
+            </div>
+            <button id="btn1" onclick="changestyle(0)">Change style 1</button>
+            <button id="btn2" onclick="changestyle(1)">Change style 2</button>
+            
+        </div>
+
+
+        
+
+        <script src="script.js"></script>
+    </body>
+</html>
